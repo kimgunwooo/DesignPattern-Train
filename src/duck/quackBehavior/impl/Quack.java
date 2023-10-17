@@ -1,6 +1,6 @@
-package QuackBehavior.impl;
+package duck.quackBehavior.impl;
 
-import QuackBehavior.QuackBehavior;
+import duck.quackBehavior.QuackBehavior;
 
 public class Quack implements QuackBehavior {
     @Override
