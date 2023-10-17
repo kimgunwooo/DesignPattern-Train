@@ -1,6 +1,6 @@
-package duck.quackBehavior.impl;
+package strategyPattern.duck.quackBehavior.impl;
 
-import duck.quackBehavior.QuackBehavior;
+import strategyPattern.duck.quackBehavior.QuackBehavior;
 
 public class MuteQuack implements QuackBehavior {
     @Override

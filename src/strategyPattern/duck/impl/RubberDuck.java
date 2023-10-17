@@ -1,9 +1,8 @@
-package duck.impl;
+package strategyPattern.duck.impl;
 
-import duck.Duck;
-import duck.flyBehavior.Impl.FlyNoWay;
-import duck.quackBehavior.impl.MuteQuack;
-import duck.quackBehavior.impl.Squeak;
+import strategyPattern.duck.Duck;
+import strategyPattern.duck.flyBehavior.Impl.FlyNoWay;
+import strategyPattern.duck.quackBehavior.impl.Squeak;
 
 public class RubberDuck extends Duck {
     public RubberDuck() {

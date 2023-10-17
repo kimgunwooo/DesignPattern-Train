@@ -1,8 +1,8 @@
-package duck.impl;
+package strategyPattern.duck.impl;
 
-import duck.Duck;
-import duck.flyBehavior.Impl.FlyWithWings;
-import duck.quackBehavior.impl.Quack;
+import strategyPattern.duck.Duck;
+import strategyPattern.duck.flyBehavior.Impl.FlyWithWings;
+import strategyPattern.duck.quackBehavior.impl.Quack;
 
 public class MallardDuck extends Duck {
     public MallardDuck() {
