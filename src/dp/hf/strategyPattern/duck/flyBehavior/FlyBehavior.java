@@ -1,4 +1,4 @@
-package strategyPattern.duck.flyBehavior;
+package dp.hf.strategyPattern.duck.flyBehavior;
 
 public interface FlyBehavior {
     public void fly();

@@ -1,7 +1,7 @@
-package strategyPattern.duck;
+package dp.hf.strategyPattern.duck;
 
-import strategyPattern.duck.flyBehavior.FlyBehavior;
-import strategyPattern.duck.quackBehavior.QuackBehavior;
+import dp.hf.strategyPattern.duck.flyBehavior.FlyBehavior;
+import dp.hf.strategyPattern.duck.quackBehavior.QuackBehavior;
 
 public abstract class Duck {
     protected FlyBehavior flyBehavior;

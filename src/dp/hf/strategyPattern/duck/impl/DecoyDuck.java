@@ -1,8 +1,8 @@
-package strategyPattern.duck.impl;
+package dp.hf.strategyPattern.duck.impl;
 
-import strategyPattern.duck.Duck;
-import strategyPattern.duck.flyBehavior.Impl.FlyNoWay;
-import strategyPattern.duck.quackBehavior.impl.MuteQuack;
+import dp.hf.strategyPattern.duck.Duck;
+import dp.hf.strategyPattern.duck.flyBehavior.Impl.FlyNoWay;
+import dp.hf.strategyPattern.duck.quackBehavior.impl.MuteQuack;
 
 public class DecoyDuck extends Duck {
     public DecoyDuck() {

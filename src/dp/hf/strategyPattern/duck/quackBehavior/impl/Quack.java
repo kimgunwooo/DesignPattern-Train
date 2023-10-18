@@ -1,6 +1,6 @@
-package strategyPattern.duck.quackBehavior.impl;
+package dp.hf.strategyPattern.duck.quackBehavior.impl;
 
-import strategyPattern.duck.quackBehavior.QuackBehavior;
+import dp.hf.strategyPattern.duck.quackBehavior.QuackBehavior;
 
 public class Quack implements QuackBehavior {
     @Override

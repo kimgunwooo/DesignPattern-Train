@@ -1,6 +1,6 @@
-package strategyPattern.duck.flyBehavior.Impl;
+package dp.hf.strategyPattern.duck.flyBehavior.Impl;
 
-import strategyPattern.duck.flyBehavior.FlyBehavior;
+import dp.hf.strategyPattern.duck.flyBehavior.FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
 
