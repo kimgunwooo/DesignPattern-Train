@@ -1,5 +1,6 @@
 package dp.hf.strategyPattern;
 
+import dp.hf.MyHWInfo;
 import dp.hf.strategyPattern.duck.Duck;
 import dp.hf.strategyPattern.duck.flyBehavior.Impl.FlyRocketPowered;
 import dp.hf.strategyPattern.duck.impl.DecoyDuck;
