@@ -1,5 +1,6 @@
 package dp.hf.adapterPattern;
 
+import dp.hf.MyHWInfo;
 import dp.hf.adapterPattern.adaptee.impl.WildTurkey;
 import dp.hf.adapterPattern.adapter.TurkeyAdapter;
 import dp.hf.adapterPattern.target.Duck;
@@ -7,6 +8,7 @@ import dp.hf.adapterPattern.target.impl.MallardDuck;
 
 public class DuckTestDrive {
     public static void main(String[] args) {
+        MyHWInfo.printInfo();
         MallardDuck duck = new MallardDuck();
 
         WildTurkey turkey = new WildTurkey();
